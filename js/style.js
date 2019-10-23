@@ -23,7 +23,7 @@ listacognomi.sort();
 console.log(listacognomi);
 
 //OUTPUT
-while (i < listacognomi.sort){
+while (i < listacognomi.length){
   console.log(listacognomi[i]);
   document.getElementById('arraydis').innerHTML +="<li>" + listacognomi[i] + "</li>";
   i++;
