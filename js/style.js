@@ -19,4 +19,12 @@ var listacognomi = ["Leone" , "Martello" , "Melchiorre" , "Monello"];
 
 listacognomi.sort();
 
+//stampo lista ordinata
 console.log(listacognomi);
+
+//OUTPUT
+while (i < listacognomi.sort){
+  console.log(listacognomi[i]);
+  document.getElementById('arraydis').innerHTML +="<li>" + listacognomi[i] + "</li>";
+  i++;
+  }
