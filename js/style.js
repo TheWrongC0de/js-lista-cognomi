@@ -18,3 +18,5 @@ var listacognomi = ["Leone" , "Martello" , "Melchiorre" , "Monello"];
 //ordino la lista alfabeticamente
 
 listacognomi.sort();
+
+console.log(listacognomi);
